@@ -40,15 +40,15 @@
       </el-row>
       <el-row>
         <el-col :span="12">
-          <el-form-item v-if="formData.id === undefined" label="用户名称" prop="username">
-            <el-input v-model="formData.username" placeholder="请输入用户名称" />
+          <el-form-item v-if="formData.id === undefined" label="账户名称" prop="username">
+            <el-input v-model="formData.username" placeholder="请输入账户名称" />
           </el-form-item>
         </el-col>
         <el-col :span="12">
-          <el-form-item v-if="formData.id === undefined" label="用户密码" prop="password">
+          <el-form-item v-if="formData.id === undefined" label="账户密码" prop="password">
             <el-input
               v-model="formData.password"
-              placeholder="请输入用户密码"
+              placeholder="请输入账户密码"
               show-password
               type="password"
             />
