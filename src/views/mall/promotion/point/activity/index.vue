@@ -1,5 +1,5 @@
 <template>
-  <doc-alert title="【营销】积分商城活动" url="https://doc.iocoder.cn/mall/promotion-point/" />
+  <doc-alert title="【营销】积分商城活动" url="https://doc.iocoder.cn/mall/point-activity" />
 
   <ContentWrap>
     <!-- 搜索工作栏 -->
